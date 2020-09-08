@@ -1,4 +1,3 @@
-<script>
 const sentence = ['1+1','1-1','1*1','1/1'];
 const operations = ['+','-','/','*'];
 const j = sentence.length;
@@ -36,6 +35,4 @@ var computeAll = (sentence,operations,j) => {
 }
 computeAll(sentence,operations,k);
 result(sentence[0],operations,k);
-
 document.write("<div class='square'></div>")
-</script>
